@@ -1,8 +1,9 @@
-#SwanOS: an ugly duk
+SwanOS: an ugly duk
+======
 
-The entire project should compile under any environment that [https://wiki.duktape.org/Portability.html](duktape supports)  
-To compile any plugins that I've written, go into [https://github.com/505e06b2/SwanOS/tree/master/exec/plugins](/exec/plugins) and run the makefile for any plugins that you want on your system  
-To enable a plugin, add the filepath to [https://github.com/505e06b2/SwanOS/tree/master/exec/plugins/](/exec/plugins/enabled.txt) an example is included  
+The entire project should compile under any environment that [duktape supports](https://wiki.duktape.org/Portability.html)  
+To compile any plugins that I've written, go into [/exec/plugins](https://github.com/505e06b2/SwanOS/tree/master/exec/plugins) and run the makefile for any plugins that you want on your system  
+To enable a plugin, add the filepath to [/exec/plugins/enabled.txt](https://github.com/505e06b2/SwanOS/tree/master/exec/plugins/) an example is included  
 
 * Features:  
     * Written in portable C
